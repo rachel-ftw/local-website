@@ -16,11 +16,12 @@ Learn Animation
 
 ### Specifications
 
-- [ ] Single page site 
+- [ ] Single landing page, very visually appealing
 - [ ] replicate this: https://dribbble.com/shots/2719343-magic-co-landing-page-concept
+- [ ] page textures animate
+- [ ] navbar is transparent and appears on second pane
+- [ ] at least 3 panes that scrolling snaps to.
 
-
-\*Copying another website's content is fine for practicing, but publishing it would likely infringe upon the original site's copyright.
 
 ### Required
 
