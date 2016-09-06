@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1224.51 1082.05">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <title>Asset 4</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1" fill="url(#gradient)" d="M655.69,0S1035.1,172.94,520.39,373.77C70.39,482.56-26.66,599.71,5.69,803.33,58.63,1003,194.25,1095.28,259.77,1080.53a43.13,43.13,0,0,1,9.48-1.05l955.26.53V0Z"/>
+    </g>
+  </g>
+</svg>
