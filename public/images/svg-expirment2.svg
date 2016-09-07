@@ -1,0 +1,172 @@
+
+<svg version="1.1" id="splash-background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+  <defs>
+    <linearGradient id="G_bottom" x1="50%" x2="0" y1="0" y2="0.5">
+      <stop offset="0%" stop-color="#0048be"/>
+      <stop offset="100%" stop-color="#00a7be"/>
+    </linearGradient>
+    <style type="text/css">
+    	#splash-background .st0 {
+        width:100%;
+        height: 100%
+      }
+    </style>
+  </defs>
+  <polygon id="bottom" class="st0" fill="url(#G_bottom)" points="278.1,0 221.1,1080 1604.1,1080 1619.1,0 ">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="4s"
+      values="5,23;-23,0;5,23"
+      repeatCount="indefinite" />
+  </polygon>
+  <path id="left1" fill="url(#G_bottom)" class="st0" d="M546,0c0,0,170.7,208.7-56,524s346,556,346,556H0V0H546z">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="4s"
+      values="0,18;-18,0;0,18"
+      repeatCount="indefinite" />
+  </path>
+  <path id="left2" fill="url(#G_bottom)" class="st0" d="M506,0c0,0,162,184-96,522s146.2,558,146.2,558H0V0H506z">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="4s"
+      values="15,0;0,-15;15,0"
+      repeatCount="indefinite" />
+  </path>
+  <path id="left3" fill="url(#G_bottom)" class="st0" d="M386,0c0,0,152,180-56,506s48,576,190,574H0V0H386z">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="4s"
+      values="0,15;-15,0;0,15"
+      repeatCount="indefinite" />
+  </path>
+  <path id="left4" fill="url(#G_bottom)" class="st0" d="M344,0c0,0,84,426-344,636V0H344z">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="4s"
+      values="0,15;-15,0;0,15"
+      repeatCount="indefinite" />
+  </path>
+  <path id="left5" fill="url(#G_bottom)" class="st0" d="M310,0c0,0,47.7,336-316.2,478L0,0H310z">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="4s"
+      values="0,15;-15,0;0,15"
+      repeatCount="indefinite" />
+  </path>
+  <path fill="url(#G_bottom)" class="st0" d="M266,0c0,0,46,254-266,330V0H266z">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="4s"
+      values="0,15;-15,0;0,15"
+      repeatCount="indefinite" />
+  </path>
+  <path id="top1" fill="url(#G_bottom)" class="st0" d="M644,0c0,0,76,240,334,292s414-168,364-292H644z">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="4s"
+      values="0,15;-15,0;0,15"
+      repeatCount="indefinite" />
+  </path>
+  <path id="top2" fill="url(#G_bottom)" class="st0" d="M1114,250c0,0,210,20,228-250H788C788,0,808,226,1114,250z">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="4s"
+      values="0,15;-15,0;0,15"
+      repeatCount="indefinite" />
+  </path>
+  <path id="top3" fill="url(#G_bottom)" class="st0" d="M1065,136c0,0,139,6,165-136H836C836,0,868,116,1065,136z">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="4s"
+      values="0,15;-15,0;0,15"
+      repeatCount="indefinite" />
+  </path>
+  <path id="right1" fill="url(#G_bottom)" class="st0" d="M1430.1,0c0,0,243,180.6-264,339.6s-496.5,303-457.5,468s381.6,272.4,381.6,272.4l829.8,0V0H1430.1
+  	z">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="4s"
+      values="0,15;-15,0;0,15"
+      repeatCount="indefinite" />
+  </path>
+  <path id="right2" fill="url(#G_bottom)" class="st0" d="M1577.5,0c0,0,61.1,281.1-289.9,378.6s-268.5,393-130.5,543s643.9,214.5,762.9-81V0H1577.5z">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="4s"
+      values="0,15;-15,0;0,15"
+      repeatCount="indefinite" />
+  </path>
+  <path id="right3" fill="url(#G_bottom)" class="st0" d="M1608.6,6.6c0,0,208.5,186-105,348s-303,219-216,418.5c87,199.5,487.9,240,632.4,0V0h-323.4
+  	L1608.6,6.6z">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="4s"
+      values="0,15;-15,0;0,15"
+      repeatCount="indefinite" />
+  </path>
+  <path id="right4" fill="url(#G_bottom)" class="st0" d="M1703.1,0c0,0,219,288.6-94.5,387.6s-369,306-81,450S1920,733.9,1920,733.9V0H1703.1z">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="4s"
+      values="0,15;-15,0;0,15"
+      repeatCount="indefinite" />
+  </path>
+  <path id="right5" fill="url(#G_bottom)" class="st0" d="M1920,272.1c0,0-98.5,188.3-306.9,205.9s-160.5,304.1-10.5,304.1s317.4-72,317.4-72V272.1z">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="4s"
+      values="0,15;-15,0;0,15"
+      repeatCount="indefinite" />
+  </path>
+  <path id="right6" fill="url(#G_bottom)" class="st0" d="M1920,365.1c0,0-62.5,135-224.4,147s-156,195-45,213c111,18,184.9,7.5,269.4-24V365.1z">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="4s"
+      values="0,15;-15,0;0,15"
+      repeatCount="indefinite" />
+  </path>
+  <path id="right7" fill="url(#G_bottom)" class="st0" d="M1920,413.1c0,0-56.5,117-167.4,135c-111,18-136.5,63-114,111c22.5,48,168.4,88.5,281.4,22.5V413.1
+  	z">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="4s"
+      values="0,15;-15,0;0,15"
+      repeatCount="indefinite" />
+  </path>
+</svg>
