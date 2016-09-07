@@ -2,6 +2,8 @@ html, body{
   height: 100%;
   width: 100%;
   overflow: hidden;
+  padding: 0;
+  margin: 0;
 }
 
 main{
@@ -11,14 +13,31 @@ main{
 }
 
 main > section{
+  position: relative;
   height: 100vh;
   width: 100vw;
-  outline: 1px solid green;
 }
 
+.section-background,
+.section-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.section-background{
+/*  color: #999999;*/
+  z-index: 1;
+}
+.section-content{
+  z-index: 2;
+}
+.section-1{
+}
 
 .section-1{
-  background: red;
+  background-image: url("/images/svg-expirment2.svg");
 }
 
 .section-2{
@@ -38,30 +57,69 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  width: 320px;
-  height: 60px;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  opacity: 0;
+  transition: opacity 500ms;
+  pointer-events: none;
 }
 
-nav ul {
-  list-style-type: none;
+nav.visible{
+  opacity: 1;
+  pointer-events: inherit;
+}
+
+.flex-grow{
+  flex-grow: 1;
+}
+.flex-shrink{
+  flex-shrink: 1;
+}
+
+nav a {
+  margin-left: 1em;
+   text-decoration: none;
+  float: right;
+  display:block;
+  padding: 10px 20px;
+  color:grey;
 }
 
 h1 {
   font-family: 'Arvo', serif;
+  margin:0;
+  color: grey;
 }
 
 
-.hero {
-  /*background-image: url('../public/images/svg-expirment2.svg') no-repeat;
-  background-size: 100% 100%;*/
-/*  position: fixed;
-  top: 50%;
-  left: 50%;*/
-  
+
+#save-my-bay{
+  position:absolute;
+  /*z-index: -99;*/
+  font-family: 'Special Elite', cursive;
+  font-size: 8em;
+  color:white;
+  margin-left: auto;
+  margin-right: auto;
+  top: 45%;
+  left: 25%;
 }
 
-.svg {
-  outline: 5px dotted yellow;
-  height: 100vh;
-  width: 100vw;
+.discover{
+  position:absolute;
+  /*z-index: -98;*/
+  font-size: 2em;
+  color:white;
+  margin-left: auto;
+  margin-right: auto;
+  top: 85%;
+  left: 45%;
+}
+
+
+object[type="image/svg+xml"]{
+  pointer-events: none;
 }
