@@ -3,9 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon --exec npm run babel-node -- ./bin/www",
-    "babel-node": "babel-node --presets=es2015",
-    "test": "babel-node spec/run.js"
+    "start": "nodemon ./bin/www",
+    "babel-node": "babel-node --presets=es2015"
   },
   "dependencies": {
     "animate.css": "^3.5.2",
