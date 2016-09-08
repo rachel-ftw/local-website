@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <defs>
+    <style>
+      .cls-4{fill:#9b611b;}
+      .cls-5{fill:#7f3030;}
+      .cls-6{fill:#272e63;}
+      .cls-7{fill:#1a2575;}
+    </style>
+  </defs>
+  <title>Asset 2</title>
+      <!-- <image xlink:href="./airplane-view.jpg"/> -->
+      <path class="cls-4" d="M399.62,1s-656,903,206,1083l-594.9-3V1Z"/>
+      <path class="cls-5" d="M303.62,1s-214,345-244,701,122,379,122,379H10.72V1l282.9-1Z"/>
+      <path class="cls-6" d="M797.62,1084s1146-94,854-910l-54-173h329l0,1080Z"/>
+      <path class="cls-7" d="M1327.62,1s496,305,504,657-44,426-44,426l139-3,0-1080Z"/>
+</svg>

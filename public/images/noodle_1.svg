@@ -1,10 +1,9 @@
-<svg 
-  version="1.1" 
+<svg version="1.1" 
   xmlns="http://www.w3.org/2000/svg" 
   xmlns:xlink="http://www.w3.org/1999/xlink" 
   preserveAspectRatio="none"
-  xml:space="preserve"
->
+  xml:space="preserve">
+  
   <defs>
     <linearGradient id="G_bottom" x1="50%" x2="0" y1="0" y2="0.5">
       <stop offset="0%" stop-color="#0a1f53"/>
@@ -24,7 +23,6 @@
       <stop offset="0%" stop-color="#b0bb91"/>
       <stop offset="100%" stop-color="#10706c"/>
     </linearGradient>
-    
     <linearGradient id="G_left4" x1="50%" x2="0" y1="0" y2="0.75">
       <stop offset="0%" stop-color="#00aca9"/>
       <stop offset="100%" stop-color="#a27944"/>
@@ -41,8 +39,8 @@
       <stop offset="0%" stop-color="#00aca9"/>
       <stop offset="100%" stop-color="#a27944"/>
     </linearGradient>
-    
   </defs>
+  
   <polygon id="bottom" class="st0" fill="url(#G_bottom)" points="278.1,0 221.1,1080 1604.1,1080 1619.1,0 " />
   <path id="left1" fill="url(#G_left1)" class="st0" d="M546,0c0,0,170.7,208.7-56,524s346,556,346,556H0V0H546z">
     <animate

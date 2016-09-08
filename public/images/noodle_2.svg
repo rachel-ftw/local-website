@@ -6,7 +6,7 @@
       <stop offset="100%" stop-color="#00a7be"/>
     </linearGradient>
 
-    <linearGradient id="right1" x1="0" x2="0" y1="" y2="1">
+    <linearGradient id="right1" x1="0" x2="0" y1="0" y2="1">
       <stop offset="0%" stop-color="#243c51"/>
       <stop offset="20%" stop-color="#1f6f6e"/>
       <stop offset="100%" stop-color="#a16e22"/>
@@ -18,51 +18,50 @@
     </linearGradient>
   </defs>
 
-<!--     <rect fill="url(#G_bottom)" width="1916.9" height="1080"/>-->    
-    <path id="right1" fill="url(#transparent_btm)" d="M1292.9,26s316.4,170,326.2,394-114.2,584-406.2,660h704V0h-628Z">
-      <animate
-        begin="0s"
-        repeatCount="indefinite"
-        attributeName="d"
-        dur="10s"
-        values="M1292.9,26s316.4,170,326.2,394-114.2,584-406.2,660h704V0h-628Z;
-          M1292.9,29s316.4,170,326.2,394-114.2,584-406.2,660h704V0h-628Z"
-      />
-    </path>
-    <path id="right2" fill="url(#right1)" d="M864.9,0s900,134,950,382-90,698-90,698h192V0Z">
-      <animate
-        begin="0s"
-        repeatCount="1"
-        attributeName="d"
-        dur="10s"
-        values="M864.9,0s900,134,950,382-90,698-90,698h192V0Z;
-          M864.9,0s900,134,950,382-90,798-90,698h192V0Z;
-          M864.9,0s900,34,950,382-90,698-90,698h192V0Z;
-          M864.9,0s900,134,950,382-90,698-90,698h192V0Z"
-      />
-    </path>
-    <path id="left1" fill="url(#transparent_btm)" d="M538.9,0s-514,56-422,378,376,686,868,702H0V0Z">
-      <animate
-        begin="0s"
-        repeatCount="indefinite"
-        attributeName="d"
-        dur="1s"
-        values="M538.9,0s-514,56-422,378,376,686,868,702H0V0Z;
-          M538.9,0s-514,56-422,378,376,686,868,702H0V0Z;
-          M538.9,0s-514,56-422,378,376,686,868,702H0V0Z;
-          M538.9,0s-514,56-422,378,376,686,868,702H0V0Z"
-      />
-    </path>
-    <path id="left2" fill="url(#G_bottom)" d="M498.9,0s-470,32-470,360,24,450,42,520,142,184,250,200H0V0Z">
-      <animate
-        begin="0s"
-        repeatCount="indefinite"
-        attributeName="d"
-        dur="1s"
-        values="M498.9,0s-470,32-470,360,24,450,42,520,142,184,250,200H0V0Z;
-          M498.9,0s-470,32-470,360,24,450,42,520,142,184,250,200H0V0Z;
-          M498.9,0s-470,32-470,360,24,450,42,520,142,184,250,200H0V0Z;
-          M498.9,0s-470,32-470,360,24,450,42,520,142,184,250,200H0V0Z"
-      />
-    </path>
+  <path id="right1" fill="url(#transparent_btm)" d="M1292.9,26s316.4,170,326.2,394-114.2,584-406.2,660h704V0h-628Z">
+    <animate
+      begin="0s"
+      repeatCount="indefinite"
+      attributeName="d"
+      dur="10s"
+      values="M1292.9,26s316.4,170,326.2,394-114.2,584-406.2,660h704V0h-628Z;
+        M1292.9,29s316.4,170,326.2,394-114.2,584-406.2,660h704V0h-628Z"
+    />
+  </path>
+  <path id="right2" fill="url(#right1)" d="M864.9,0s900,134,950,382-90,698-90,698h192V0Z">
+    <animate
+      begin="0s"
+      repeatCount="indefinite"
+      attributeName="d"
+      dur="10s"
+      values="M864.9,0s900,134,950,382-90,698-90,698h192V0Z;
+        M864.9,0s900,134,950,382-90,798-90,698h192V0Z;
+        M864.9,0s900,34,950,382-90,698-90,698h192V0Z;
+        M864.9,0s900,134,950,382-90,698-90,698h192V0Z"
+    />
+  </path>
+  <path id="left1" fill="url(#transparent_btm)" d="M538.9,0s-514,56-422,378,376,686,868,702H0V0Z">
+    <animate
+      begin="0s"
+      repeatCount="indefinite"
+      attributeName="d"
+      dur="1s"
+      values="M538.9,0s-514,56-422,378,376,686,868,702H0V0Z;
+        M538.9,0s-514,56-422,378,376,686,868,702H0V0Z;
+        M538.9,0s-514,56-422,378,376,686,868,702H0V0Z;
+        M538.9,0s-514,56-422,378,376,686,868,702H0V0Z"
+    />
+  </path>
+  <path id="left2" fill="url(#G_bottom)" d="M498.9,0s-470,32-470,360,24,450,42,520,142,184,250,200H0V0Z">
+    <animate
+      begin="0s"
+      repeatCount="indefinite"
+      attributeName="d"
+      dur="1s"
+      values="M498.9,0s-470,32-470,360,24,450,42,520,142,184,250,200H0V0Z;
+        M498.9,0s-470,32-470,360,24,450,42,520,142,184,250,200H0V0Z;
+        M498.9,0s-470,32-470,360,24,450,42,520,142,184,250,200H0V0Z;
+        M498.9,0s-470,32-470,360,24,450,42,520,142,184,250,200H0V0Z"
+    />
+  </path>
 </svg>
