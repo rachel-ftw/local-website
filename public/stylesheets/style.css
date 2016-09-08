@@ -23,15 +23,16 @@ main > section{
 }
 
 .section-1{
-  background: url('/images/svg-expirment2.svg');
+  background: url('/images/primaryNoodles.svg');
+  color:white;
 }
 /*These will need two background images, one with the svg... or does that overlay???
 */
 .section-2{
-  background: url('/images/bay-bridge.jpg');
+  background: url('/images/bay-bridge.jpg') center center;
 }
 .section-3{
-  background: url('/images/goldengate.jpg');
+  background: url('/images/thebay.jpg') center center;
 }
 .section-4{
   background: yellow;
