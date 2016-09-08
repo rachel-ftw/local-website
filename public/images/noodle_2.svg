@@ -12,9 +12,9 @@
       <stop offset="100%" stop-color="#a16e22"/>
     </linearGradient>
 
-    <linearGradient id="transparent_btm" x1="50%" x2="0" y1="0" y2="0.5">
+    <linearGradient id="transparent_btm" x1="0" x2="0" y1="0" y2="1">
       <stop offset="0%" stop-color="#0a1f53"/>
-      <stop offset="100%" stop-color="#00a7be" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#00a7be" stop-opacity=".1"/>
     </linearGradient>
   </defs>
 
@@ -24,21 +24,20 @@
         begin="0s"
         repeatCount="indefinite"
         attributeName="d"
-        dur="1s"
+        dur="10s"
         values="M1292.9,26s316.4,170,326.2,394-114.2,584-406.2,660h704V0h-628Z;
-          M1292.9,29s316.4,170,326.2,394-114.2,584-406.2,660h704V0h-628Z;
-          M1292.9,26s316.4,170,326.2,394-114.2,584-406.2,660h704V0h-628Z"
+          M1292.9,29s316.4,170,326.2,394-114.2,584-406.2,660h704V0h-628Z"
       />
     </path>
     <path id="right2" fill="url(#right1)" d="M864.9,0s900,134,950,382-90,698-90,698h192V0Z">
       <animate
         begin="0s"
-        repeatCount="indefinite"
+        repeatCount="1"
         attributeName="d"
-        dur="1s"
+        dur="10s"
         values="M864.9,0s900,134,950,382-90,698-90,698h192V0Z;
           M864.9,0s900,134,950,382-90,798-90,698h192V0Z;
-          M864.9,0s900,134,950,382-90,698-90,698h192V0Z;
+          M864.9,0s900,34,950,382-90,698-90,698h192V0Z;
           M864.9,0s900,134,950,382-90,698-90,698h192V0Z"
       />
     </path>
