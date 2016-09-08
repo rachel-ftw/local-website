@@ -1,1 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1915.9 1084"><defs><style>.cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:#9b611b;}.cls-4{fill:#7f3030;}.cls-5{fill:#272e63;}.cls-6{fill:#1a2575;}</style><clipPath id="clip-path"><rect class="cls-1" y="1" width="1915.9" height="1080"/></clipPath></defs><title>Asset 1</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-3" d="M388.9,1s-656,903,206,1083L0,1081V1Z"/><path class="cls-4" d="M292.9,1s-214,345-244,701,122,379,122,379H0V1L282.9,0Z"/><path class="cls-5" d="M786.9,1084s1146-94,854-910l-54-173h329l0,1080Z"/><path class="cls-6" d="M1316.9,1s496,305,504,657-44,426-44,426l139-3,0-1080Z"/></g></g></svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1915.9 1084">
+  <defs>
+    <linearGradient id="G_bottom" x1="0" x2="0" y1=".8" y2="0">
+      <stop offset="0%" stop-color="#0a1f53"/>
+      <stop offset="100%" stop-color="#00a7be"/>
+    </linearGradient>
+
+    <linearGradient id="left2" x1="0" x2="0" y1="" y2="1">
+      <stop offset="0%" stop-color="#243c51"/>
+      <stop offset="20%" stop-color="#1f6f6e"/>
+      <stop offset="100%" stop-color="#a16e22"/>
+    </linearGradient>
+
+    <linearGradient id="transparent_btm" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0a1f53"/>
+      <stop offset="100%" stop-color="#00a7be" stop-opacity=".1"/>
+    </linearGradient>
+  </defs>
+
+  <path id="left1" fill="url(#transparent_btm)" d="M388.9,1s-656,903,206,1083L0,1081V1Z">
+    <animate
+      begin="0s"
+      repeatCount="1"
+      attributeName="d"
+      dur="10s"
+      values="M388.9,1s-656,903,206,1083L0,1081V1Z;
+        M388.9,1s-656,903,206,1083L0,1081V1Z;
+        M388.9,1s-656,903,206,1083L0,1081V1Z"
+    />
+  </path>
+  <path id="left2" fill="url(#left2)" d="M292.9,1s-214,345-244,701,122,379,122,379H0V1L282.9,0Z">
+    <animate
+      begin="0s"
+      repeatCount="1"
+      attributeName="d"
+      dur="10s"
+      values="M292.9,1s-214,345-244,701,122,379,122,379H0V1L282.9,0Z;
+        M292.9,1s-214,345-244,701,122,379,122,379H0V1L282.9,0Z;
+        M292.9,1s-214,345-244,701,122,379,122,379H0V1L282.9,0Z"
+    />
+  </path>
+  <path id="right1" fill="url(#transparent_btm)" d="M786.9,1084s1146-94,854-910l-54-173h329l0,1080Z">
+    <animate
+      begin="0s"
+      repeatCount="1"
+      attributeName="d"
+      dur="10s"
+      values="M786.9,1084s1146-94,854-910l-54-173h329l0,1080Z;
+        M786.9,1084s1146-94,854-910l-54-173h329l0,1080Z;
+        M786.9,1084s1146-94,854-910l-54-173h329l0,1080Z"
+    />
+  </path>
+  <path id="right2" fill="url(#G_bottom)" d="M1316.9,1s496,305,504,657-44,426-44,426l139-3,0-1080Z">
+    <animate
+      begin="0s"
+      repeatCount="1"
+      attributeName="d"
+      dur="10s"
+      values="M1316.9,1s496,305,504,657-44,426-44,426l139-3,0-1080Z;
+        M1316.9,1s496,305,504,657-44,426-44,426l139-3,0-1080Z;
+        M1316.9,1s496,305,504,657-44,426-44,426l139-3,0-1080Z"
+    />
+  </path>
+</svg>
