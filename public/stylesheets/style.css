@@ -2,30 +2,36 @@ html, body{
   height: 100%;
   width: 100%;
   overflow: hidden;
+  padding: 0;
+  margin: 0;
+  min-width: 800px;
 }
 
 main{
+  position: relative;
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
+  min-width: 800px;
+  overflow-y: hidden;
+  overflow-x: auto;
 }
 
 main > section{
+  position: relative;
   height: 100vh;
   width: 100vw;
-  outline: 1px solid green;
 }
-
 
 .section-1{
-  background: red;
+  background: url('/images/svg-expirment2.svg');
 }
-
+/*These will need two background images, one with the svg... or does that overlay???
+*/
 .section-2{
-  background: purple;
+  background: url('/images/bay-bridge.jpg');
 }
 .section-3{
-  background: orange;
+  background: url('/images/goldengate.jpg');
 }
 .section-4{
   background: yellow;
@@ -34,34 +40,101 @@ main > section{
   background: salmon;
 }
 
+
 nav {
   position: fixed;
   top: 0;
   left: 0;
-  width: 320px;
-  height: 60px;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  opacity: 0;
+  transition: opacity 500ms;
+  pointer-events: none;
 }
 
-nav ul {
-  list-style-type: none;
+nav.visible{
+  opacity: 1;
+  pointer-events: inherit;
 }
 
-h1 {
-  font-family: 'Arvo', serif;
+.flex-grow{
+  flex-grow: 1;
+}
+.flex-shrink{
+  flex-shrink: 1;
+}
+
+nav a {
+  margin-left: 1em;
+   text-decoration: none;
+  float: right;
+  display:block;
+  padding: 10px 20px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Raleway', sans-serif;
+  margin:0;
+  color: white;
 }
 
 
-.hero {
-  /*background-image: url('../public/images/svg-expirment2.svg') no-repeat;
-  background-size: 100% 100%;*/
-/*  position: fixed;
-  top: 50%;
-  left: 50%;*/
-  
+
+#save-my-bay{
+  position:absolute;
+  /*z-index: -99;*/
+  font-family: 'Raleway', sans-serif;
+  font-size: 8em;
+  color:white;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 40%;
+  left: 28%;
 }
 
-.svg {
-  outline: 5px dotted yellow;
-  height: 100vh;
-  width: 100vw;
+.discover-more{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
+.discover-more a{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  position: relative;
+  bottom: 0;
+  display: block;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  -webkit-animation: bounce 1s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+.discover-more object {
+  position: relative;
+  bottom: 0;
+  display: block;
+  margin:auto;
+}
+
+
+@-webkit-keyframes bounce {
+  0%       { bottom:5px; }
+  25%, 75% { bottom:15px; }
+  50%      { bottom:20px; }
+  100%     { bottom:0;}
+}
+
+
+object[type="image/svg+xml"]{
+  pointer-events: none;
+}
+
