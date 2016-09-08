@@ -1,4 +1,5 @@
-.section-2-content{
+.section-2-content,
+.section-3-content {
   position: relative;
   height: 100%;
 }
@@ -13,7 +14,16 @@
   opacity: 0;
 }
 
-.section-2-header{
+.section-3-header,
+.section-3-info,
+.get-involved-button {
+  display: block;
+  position: absolute;
+  left: 29%;
+  opacity: 0;
+}
+
+.section-2-header {
   top: 50%;
   transition: top 1000ms, opacity 5s;
 }
@@ -30,6 +40,19 @@
   transition: top 1300ms, opacity 5s;
 }
 
+.section-3-header {
+  top: 50%;
+  transition: top 1000ms, opacity 3s;
+}
+.section-3-info{
+  top: 60%;
+  transition: top 1200ms, opacity 3s;
+}
+.get-involved-button{
+  top: 80%;
+  transition: top 1300ms, opacity 3s;
+}
+
 .section-2.entering-section .section-2-header{
   top: 10%;
   opacity: 1;
@@ -39,13 +62,27 @@
   opacity: 1;
 }
 .section-2.entering-section .section-2-info{
-  top: 28%;
+  top: 29%;
   opacity: 1;  
 }
 .section-2.entering-section .learn-more-button {
-  top: 34%;
+  top: 36%;
   opacity: 1;
 }
+
+.section-3.entering-section .section-3-header{
+  top: 10%;
+  opacity: 1;
+}
+.section-3.entering-section .section-3-info{
+  top: 28%;
+  opacity: 1;  
+}
+.section-3.entering-section .get-involved-button {
+  top: 60%;
+  opacity: 1;
+}
+
 .section-2.leaving-section .section-2-header,
 .section-2.leaving-section .section-2-date, 
 .section-2.leaving-section .section-2-info,
@@ -54,7 +91,15 @@
   opacity: 1;
 }
 
-.section-2-header {
+.section-3.leaving-section .section-2-header,
+.section-3.leaving-section .section-2-info,
+.section-3.leaving-section .get-involved-button {
+  top: -50%;
+  opacity: 1;
+}
+
+.section-2-header,
+.section-3-header {
   font-family: 'Quicksand', sans-serif;
   font-size: 7em;
   margin-bottom: 20px;
@@ -66,13 +111,20 @@
 
 }
 
-.section-2-info  {
+.section-2-info {
   font-weight: 200;
   margin-bottom: 20px;
 }
 
+.section-3-info {
+  font-weight: 200;
+  margin-bottom: 20px;
+  margin-right: 800px;
+}
 
-.learn-more-button {
+
+.learn-more-button,
+.get-involved-button {
   margin: 0 0 0 0;
   padding: 10px 15px;
   font-size: 1.5em;
