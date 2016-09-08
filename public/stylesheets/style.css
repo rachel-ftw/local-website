@@ -25,12 +25,13 @@ main > section{
 .section-1{
   background: url('/images/svg-expirment2.svg');
 }
-
+/*These will need two background images, one with the svg... or does that overlay???
+*/
 .section-2{
   background: url('/images/bay-bridge.jpg');
 }
 .section-3{
-  background: orange;
+  background: url('/images/goldengate.jpg');
 }
 .section-4{
   background: yellow;
