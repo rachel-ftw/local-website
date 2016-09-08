@@ -4,13 +4,16 @@ html, body{
   overflow: hidden;
   padding: 0;
   margin: 0;
+  min-width: 800px;
 }
 
 main{
   position: relative;
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
+  min-width: 800px;
+  overflow-y: hidden;
+  overflow-x: auto;
 }
 
 main > section{
@@ -19,24 +22,12 @@ main > section{
   width: 100vw;
 }
 
-.bi-section-overlay{
-  pointer-events: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 200vh;
-  width: 100vw;
-}
-
 .section-1{
-}
-
-.section-1{
-  background: red;
+  background: url('/images/svg-expirment2.svg');
 }
 
 .section-2{
-  background: purple;
+  background: url('/images/bay-bridge.jpg');
 }
 .section-3{
   background: orange;
@@ -47,6 +38,7 @@ main > section{
 .section-5{
   background: salmon;
 }
+
 
 nav {
   position: fixed;
@@ -80,13 +72,15 @@ nav a {
   float: right;
   display:block;
   padding: 10px 20px;
-  color:grey;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
 }
 
-h1 {
-  font-family: 'Arvo', serif;
+h1, h2, h3, h4, h5{
+  font-family: 'Raleway', sans-serif;
   margin:0;
-  color: grey;
+  color: white;
 }
 
 
@@ -94,27 +88,52 @@ h1 {
 #save-my-bay{
   position:absolute;
   /*z-index: -99;*/
-  font-family: 'Special Elite', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 8em;
   color:white;
   margin-left: auto;
   margin-right: auto;
-  top: 45%;
-  left: 25%;
+  bottom: 40%;
+  left: 28%;
 }
 
-.discover{
-  position:absolute;
-  /*z-index: -98;*/
-  font-size: 2em;
-  color:white;
-  margin-left: auto;
-  margin-right: auto;
-  top: 85%;
-  left: 45%;
+.discover-more{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.discover-more a{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  position: relative;
+  bottom: 0;
+  display: block;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  -webkit-animation: bounce 1s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+.discover-more object {
+  position: relative;
+  bottom: 0;
+  display: block;
+  margin:auto;
+}
+
+
+@-webkit-keyframes bounce {
+  0%       { bottom:5px; }
+  25%, 75% { bottom:15px; }
+  50%      { bottom:20px; }
+  100%     { bottom:0;}
 }
 
 
 object[type="image/svg+xml"]{
   pointer-events: none;
 }
+

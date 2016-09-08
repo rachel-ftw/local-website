@@ -22,6 +22,14 @@ var ScrollAnimator = {
     this.lastDirectionWeMoved = directionWedMove
     this.lastTimeWeMovedSections = Date.now()
     this.currentSection = sectionIndex
+    $('main > section:nth-child('+sectionIndex+')')
+      .prev()
+        .removeClass('entering-section')
+        .addClass('leaving-section')
+      .end()
+      .removeClass('leaving-section')
+      .addClass('entering-section')
+      .siblings().removeClass('entering-section')
     $('main').stop().animate({
       scrollTop: this.scrollTopForSection(sectionIndex)
     })
