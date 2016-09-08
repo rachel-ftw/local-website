@@ -1,0 +1,84 @@
+.section-2-content{
+  position: relative;
+  height: 100%;
+}
+
+.section-2-header,
+.section-2-date, 
+.section-2-info,
+.learn-more-button {
+  display: block;
+  position: absolute;
+  left: 29%;
+  opacity: 0;
+}
+
+.section-2-header{
+  top: 50%;
+  transition: top 1000ms, opacity 5s;
+}
+.section-2-date{
+  top: 60%;
+  transition: top 1100ms, opacity 5s;
+}
+.section-2-info{
+  top: 60%;
+  transition: top 1200ms, opacity 5s;
+}
+.learn-more-button{
+  top: 80%;
+  transition: top 1300ms, opacity 5s;
+}
+
+.section-2.entering-section .section-2-header{
+  top: 10%;
+  opacity: 1;
+}
+.section-2.entering-section .section-2-date{
+  top: 25%;
+  opacity: 1;
+}
+.section-2.entering-section .section-2-info{
+  top: 28%;
+  opacity: 1;  
+}
+.section-2.entering-section .learn-more-button {
+  top: 34%;
+  opacity: 1;
+}
+.section-2.leaving-section .section-2-header,
+.section-2.leaving-section .section-2-date, 
+.section-2.leaving-section .section-2-info,
+.section-2.leaving-section .learn-more-button {
+  top: -50%;
+  opacity: 1;
+}
+
+.section-2-header {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 7em;
+  margin-bottom: 20px;
+}
+
+.section-2-date {
+  font-weight: 200;
+  margin-bottom: 20px;
+
+}
+
+.section-2-info  {
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+
+.learn-more-button {
+  margin: 0 0 0 0;
+  padding: 10px 15px;
+  font-size: 1.5em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  color: #fff;
+  background: rgba(0,0,0,0);
+  border: solid 4px #00a7be;
+}

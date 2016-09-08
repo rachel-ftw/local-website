@@ -9,6 +9,11 @@ var ScrollAnimator = {
     $(window).on('mousewheel', (event) => {
       (event.originalEvent.wheelDelta / 120 > 0) ? this.goBackward() : this.goForward();
     })
+
+    $('.discover-more a').on('click', event => {
+      event.preventDefault();
+      this.moveToSection(2);
+    })
   },
 
   moveToSection: function(sectionIndex){
@@ -32,7 +37,7 @@ var ScrollAnimator = {
       .siblings().removeClass('entering-section')
     $('main').stop().animate({
       scrollTop: this.scrollTopForSection(sectionIndex)
-    })
+    }, 1000)
     
     if (this.currentSection === 1){
       $('nav').removeClass('visible');
@@ -53,14 +58,6 @@ var ScrollAnimator = {
     this.moveToSection(this.currentSection-1)
   },
 
-  // //why is nav bar background white?!?
-  // showNav: function(){
-  //   // if current section === 1, set view to none
-  //   //if current section > 1, make it visible, with a 500 ms 'turning up opacity'
-  //   $(document).on('scroll', function (e) {
-  //       $('.navbar').css('opacity', ($(document).scrollTop() / 500));
-  //   });
-  // }
 }
 
 $(function(){
