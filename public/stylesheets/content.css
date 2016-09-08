@@ -1,25 +1,36 @@
 .bay-day {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 7em;
   position: absolute;
-  left: 570px;
-  top: 320px;
+  left: 460px;
+  top: 120px;
 }
 
-.bay-day-year {
+.date {
   position: absolute;
-  left: 570px;
-  top: 420px;
+  left: 468px;
+  top: 260px;
+  font-weight: 200;
 }
+
+.info  {
+  position: absolute;
+  left: 468px;
+  top: 305px;
+  font-weight: 200;
+}
+
 
 button {
   position: absolute;
-  left: 870px;
-  top: 520px;
+  left: 470px;
+  top: 380px;
   display: inline-block;
   margin: 0 0 0 0;
   padding: 10px 10px;
   font-size: 1.5em;
   font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 1;
   appearance: none;
   box-shadow: none;
