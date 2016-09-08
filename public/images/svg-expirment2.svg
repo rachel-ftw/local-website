@@ -20,14 +20,23 @@
 	.st14{fill:url(#right5_1_);}
 	.st15{fill:url(#right6_1_);}
 	.st16{fill:url(#right7_1_);}
-	.st17{fill:none;}
+	.st17{clip-path:url(#SVGID_2_);}
+	.st18{fill:#773F3F;}
+	.st19{fill:#965959;}
+	.st20{fill:#511B1B;}
+	.st21{fill:#59422F;}
+	.st22{fill:none;}
+	.st23{fill:#9B611B;}
+	.st24{fill:#7F3030;}
+	.st25{fill:#272E63;}
+	.st26{fill:#1A2575;}
 </style>
-<linearGradient id="bottom_1_" gradientUnits="userSpaceOnUse" x1="654.2919" y1="399.3536" x2="653.7919" y2="398.8536" gradientTransform="matrix(1398 0 0 -1080 -913416.875 430480)">
+<linearGradient id="bottom_1_" gradientUnits="userSpaceOnUse" x1="1307.8241" y1="1102.0344" x2="1307.3241" y2="1102.5344" gradientTransform="matrix(1398 0 0 1080 -1827054.875 -1191019)">
 	<stop  offset="0" style="stop-color:#0A1F53"/>
 	<stop  offset="1" style="stop-color:#00A7BE"/>
 </linearGradient>
 <polygon id="bottom" class="st0" points="281.2,-1100 224.2,-20 1607.2,-20 1622.2,-1100 "/>
-<linearGradient id="left1_1_" gradientUnits="userSpaceOnUse" x1="653.9714" y1="399.3611" x2="653.4714" y2="398.8611" gradientTransform="matrix(836 0 0 -1080 -546090 430480)">
+<linearGradient id="left1_1_" gradientUnits="userSpaceOnUse" x1="1307.1891" y1="1102.0269" x2="1306.6891" y2="1102.5269" gradientTransform="matrix(836 0 0 1080 -1092180 -1191019)">
 	<stop  offset="0" style="stop-color:#BAB3E5"/>
 	<stop  offset="0.2" style="stop-color:#F6B592"/>
 	<stop  offset="1" style="stop-color:#F6EBDB"/>
@@ -36,7 +45,7 @@
 <animate  accumulate="none" additive="replace" attributeName="d" begin="0s" calcMode="linear" dur="10s" fill="remove" repeatCount="indefinite" restart="always" values="M546,0c0,0,170.7,208.7-56,524s346,556,346,556H0V0H546z;         M546,0c0,0,170.7,308.7-56,524s346,556,346,556H0V0H546z;         M546,0c0,0,170.7,208.8-56,524s346,656,346,556H0V0H546z;         M546,0c0,0,170.7,208.7-56,524s346,556,346,556H0V0H546z">
 		</animate>
 </path>
-<linearGradient id="left2_1_" gradientUnits="userSpaceOnUse" x1="653.5798" y1="399.3611" x2="653.0798" y2="398.8611" gradientTransform="matrix(556.2064 0 0 -1080 -363105 430480)">
+<linearGradient id="left2_1_" gradientUnits="userSpaceOnUse" x1="1306.4039" y1="1102.0269" x2="1305.9039" y2="1102.5269" gradientTransform="matrix(556.2064 0 0 1080 -726210 -1191019)">
 	<stop  offset="0" style="stop-color:#DFCB9F"/>
 	<stop  offset="0.8" style="stop-color:#FFE9D7"/>
 	<stop  offset="1" style="stop-color:#E3B984"/>
@@ -45,7 +54,7 @@
 <animate  accumulate="none" additive="replace" attributeName="d" begin="0s" calcMode="linear" dur="14s" fill="remove" repeatCount="indefinite" restart="always" values="M506,0c0,0,162,184-96,522s146.2,558,146.2,558H0V0H506z;         M506,0c0,0,162,184-96,522s146.2,458,146.2,558H0V0H506z;         M506,0c0,0,162,184-96,522s146.2,558,246.2,558H0V0H506z;         M506,0c0,0,162,184-96,522s146.2,558,146.2,558H0V0H506z">
 		</animate>
 </path>
-<linearGradient id="left3_1_" gradientUnits="userSpaceOnUse" x1="653.4983" y1="399.3611" x2="652.9983" y2="398.8611" gradientTransform="matrix(520 0 0 -1080.012 -339426 430484.7812)">
+<linearGradient id="left3_1_" gradientUnits="userSpaceOnUse" x1="1306.2406" y1="1102.0269" x2="1305.7406" y2="1102.5269" gradientTransform="matrix(520 0 0 1080.012 -678852 -1191032.125)">
 	<stop  offset="0" style="stop-color:#B0BB91"/>
 	<stop  offset="1" style="stop-color:#10706C"/>
 </linearGradient>
@@ -53,7 +62,7 @@
 <animate  accumulate="none" additive="replace" attributeName="d" begin="0s" calcMode="linear" dur="15s" fill="remove" repeatCount="indefinite" restart="always" values="M386,0c0,0,152,180-56,506s48,576,190,574H0V0H386z;         M386,0c0,0,60,180-56,506s48,576,190,574H0V0H386z;         M386,0c0,0,102,180-56,506s48,576,190,574H0V0H386z;         M386,0c0,0,152,180-56,506s48,576,190,574H0V0H386z">
 		</animate>
 </path>
-<linearGradient id="left4_1_" gradientUnits="userSpaceOnUse" x1="652.7167" y1="399.2911" x2="652.2167" y2="398.5411" gradientTransform="matrix(350.6743 0 0 -636 -228686.9844 252880)">
+<linearGradient id="left4_1_" gradientUnits="userSpaceOnUse" x1="1304.8518" y1="1102.3677" x2="1304.3518" y2="1103.1177" gradientTransform="matrix(350.6743 0 0 636 -457373.9688 -702175)">
 	<stop  offset="0" style="stop-color:#00ACA9"/>
 	<stop  offset="1" style="stop-color:#A27944"/>
 </linearGradient>
@@ -61,7 +70,7 @@
 <animate  accumulate="none" additive="replace" attributeName="d" begin="0s" calcMode="linear" dur="5s" fill="remove" repeatCount="indefinite" restart="always" values="M344,0c0,0,84,426-344,636V0H344z;         M344,0c0,0,84,466-344,636V0H344z;         M344,0c50,0,84,426-344,636V0H344z;         M344,0c0,0,84,426-344,636V0H344z">
 		</animate>
 </path>
-<linearGradient id="left5_1_" gradientUnits="userSpaceOnUse" x1="652.5533" y1="399.0229" x2="652.0533" y2="398.5229" gradientTransform="matrix(318.2579 0 0 -478 -207492.875 189680)">
+<linearGradient id="left5_1_" gradientUnits="userSpaceOnUse" x1="1304.4984" y1="1102.8538" x2="1303.9984" y2="1103.3538" gradientTransform="matrix(318.2579 0 0 478 -414979.5312 -528217)">
 	<stop  offset="0" style="stop-color:#0E1E38"/>
 	<stop  offset="1" style="stop-color:#105E7E"/>
 </linearGradient>
@@ -69,7 +78,7 @@
 <animate  accumulate="none" additive="replace" attributeName="d" begin="0s" calcMode="linear" dur="11s" fill="remove" repeatCount="indefinite" restart="always" values="M310,0c0,0,47.7,336-316.2,478L0,0H310z;         M310,0c0,0,47.7,336-316.2,578L0,0H310z;         M310,0c0,0,47.7,336-316.2,478L0,0H310z">
 		</animate>
 </path>
-<linearGradient id="left6_1_" gradientUnits="userSpaceOnUse" x1="652.5748" y1="398.2273" x2="651.5748" y2="398.2273" gradientTransform="matrix(268.3855 0 0 -330 -174870.0938 130480)">
+<linearGradient id="left6_1_" gradientUnits="userSpaceOnUse" x1="1304.1379" y1="1104.0425" x2="1303.1379" y2="1104.0425" gradientTransform="matrix(268.3855 0 0 330 -349740.2188 -365269)">
 	<stop  offset="0" style="stop-color:#23A2B4"/>
 	<stop  offset="1" style="stop-color:#00CCA9"/>
 </linearGradient>
@@ -77,7 +86,7 @@
 <animate  accumulate="none" additive="replace" attributeName="d" begin="0s" calcMode="linear" dur="8s" fill="remove" repeatCount="indefinite" restart="always" values="M266,0c0,0,46,254-266,330V0H266z;         M266,0c0,100,46,254-266,330V0H266z;         M266,0c0,0,46,254-266,330V0H266z">
 		</animate>
 </path>
-<linearGradient id="top1_1_" gradientUnits="userSpaceOnUse" x1="653.7487" y1="398.4302" x2="653.2487" y2="397.9302" gradientTransform="matrix(707.2969 0 0 -299.8132 -461274.1562 118405.2969)">
+<linearGradient id="top1_1_" gradientUnits="userSpaceOnUse" x1="1306.8241" y1="1103.9673" x2="1306.3241" y2="1104.4673" gradientTransform="matrix(707.2969 0 0 299.8132 -923192.3125 -332033.3125)">
 	<stop  offset="0" style="stop-color:#0A1F53"/>
 	<stop  offset="1" style="stop-color:#00A7BE"/>
 </linearGradient>
@@ -85,7 +94,7 @@
 <animate  accumulate="none" additive="replace" attributeName="d" begin="0s" calcMode="linear" dur="10s" fill="remove" repeatCount="indefinite" restart="always" values="M644,0c0,0,76,240,334,292s414-168,364-292H644z;         M700,0c0,0,76,240,334,292s414-168,364-292H644z;         M644,0c0,0,76,240,334,292s414-168,364-292H644z">
 		</animate>
 </path>
-<linearGradient id="top2_1_" gradientUnits="userSpaceOnUse" x1="653.4969" y1="398.1504" x2="652.9969" y2="397.6504" gradientTransform="matrix(554 0 0 -250.333 -360874 98613.1953)">
+<linearGradient id="top2_1_" gradientUnits="userSpaceOnUse" x1="1306.3164" y1="1104.5234" x2="1305.8164" y2="1105.0234" gradientTransform="matrix(554 0 0 250.333 -722536 -277555.625)">
 	<stop  offset="0" style="stop-color:#0A1F53"/>
 	<stop  offset="1" style="stop-color:#00A7BE"/>
 </linearGradient>
@@ -93,7 +102,7 @@
 <animate  accumulate="none" additive="replace" attributeName="d" begin="0s" calcMode="linear" dur="5s" fill="remove" repeatCount="indefinite" restart="always" values="M1114,250c0,0,210,20,228-250H788C788,0,808,226,1114,250z;         M1114,250c0,0,110,20,200-250H788C788,0,808,226,1114,250z;         M1114,250c0,0,210,20,228-250H788C788,0,808,226,1114,250z">
 		</animate>
 </path>
-<linearGradient id="top3_1_" gradientUnits="userSpaceOnUse" x1="653.0131" y1="396.7475" x2="652.5131" y2="396.2475" gradientTransform="matrix(394 0 0 -136.0364 -256186 52894.5742)">
+<linearGradient id="top3_1_" gradientUnits="userSpaceOnUse" x1="1305.3533" y1="1107.3325" x2="1304.8533" y2="1107.8325" gradientTransform="matrix(394 0 0 136.0364 -513208 -151715.0781)">
 	<stop  offset="0" style="stop-color:#0A1F53"/>
 	<stop  offset="1" style="stop-color:#00A7BE"/>
 </linearGradient>
@@ -101,7 +110,7 @@
 <animate  accumulate="none" additive="replace" attributeName="d" begin="0s" calcMode="linear" dur="6s" fill="remove" repeatCount="indefinite" restart="always" values="M1065,136c0,0,139,6,165-136H836C836,0,868,116,1065,136z;         M1099,136c0,0,139,6,165-136H836C836,0,868,150,1065,136z;         M1065,136c0,0,139,6,165-136H836C836,0,868,116,1065,136z">
 		</animate>
 </path>
-<linearGradient id="right1_1_" gradientUnits="userSpaceOnUse" x1="654.3583" y1="399.2227" x2="653.8583" y2="398.7227" gradientTransform="matrix(1227.8374 0 0 -1080 -801659.5 430480)">
+<linearGradient id="right1_1_" gradientUnits="userSpaceOnUse" x1="1307.8257" y1="1102.1653" x2="1307.3257" y2="1102.6653" gradientTransform="matrix(1227.8374 0 0 1080 -1604011.125 -1191019)">
 	<stop  offset="0" style="stop-color:#0A1F53"/>
 	<stop  offset="1" style="stop-color:#00A7BE"/>
 </linearGradient>
@@ -110,7 +119,7 @@
 <animate  accumulate="none" additive="replace" attributeName="d" begin="0s" calcMode="linear" dur="7s" fill="remove" repeatCount="indefinite" restart="always" values="M1430.1,0c0,0,243,180.6-264,339.6s-496.5,303-457.5,468s381.6,272.4,381.6,272.4l829.8,0V0H1430.1z;         M1430.1,40c0,0,143,280.6-264,339.6s-496.5,303-457.5,468s381.6,272.4,381.6,272.4l829.8,0V0H1430.1z;         M1430.1,0c0,0,243,180.6-264,339.6s-496.5,303-457.5,468s381.6,272.4,381.6,272.4l829.8,0V0H1430.1z">
 		</animate>
 </path>
-<linearGradient id="right2_1_" gradientUnits="userSpaceOnUse" x1="654.1001" y1="399.2608" x2="653.6001" y2="398.7608" gradientTransform="matrix(881.4725 0 0 -1048.22 -574790.5 417768)">
+<linearGradient id="right2_1_" gradientUnits="userSpaceOnUse" x1="1307.3582" y1="1102.1389" x2="1306.8582" y2="1102.6389" gradientTransform="matrix(881.4725 0 0 1048.22 -1150619.5 -1156029.125)">
 	<stop  offset="0" style="stop-color:#0A1F53"/>
 	<stop  offset="1" style="stop-color:#00A7BE"/>
 </linearGradient>
@@ -119,7 +128,7 @@
 <animate  accumulate="none" additive="replace" attributeName="d" begin="0s" calcMode="linear" dur="12s" fill="remove" repeatCount="indefinite" restart="always" values="M1577.5,0c0,0,61.1,281.1-289.9,378.6s-268.5,393-130.5,543s643.9,214.5,762.9-81V0H1577.5z;         M1577.5,0c0,0,61.1,281.1-289.9,378.6s-268.5,493-130.5,643s643.9,414.5,762.9-81V0H1577.5z;         M1577.5,0c0,0,61.1,281.1-289.9,378.6s-268.5,393-130.5,543s643.9,214.5,762.9-81V0H1577.5z">
 		</animate>
 </path>
-<linearGradient id="right3_1_" gradientUnits="userSpaceOnUse" x1="653.8884" y1="399.2138" x2="653.3884" y2="398.7138" gradientTransform="matrix(685.0696 0 0 -938.2609 -446146.5625 373784.3438)">
+<linearGradient id="right3_1_" gradientUnits="userSpaceOnUse" x1="1306.9337" y1="1102.2328" x2="1306.4338" y2="1102.7328" gradientTransform="matrix(685.0696 0 0 938.2609 -893528.0625 -1034964.3125)">
 	<stop  offset="0" style="stop-color:#0A1F53"/>
 	<stop  offset="1" style="stop-color:#00A7BE"/>
 </linearGradient>
@@ -128,7 +137,7 @@
 <animate  accumulate="none" additive="replace" attributeName="d" begin="0s" calcMode="linear" dur="11s" fill="remove" repeatCount="indefinite" restart="always" values="M1608.6,6.6c0,0,208.5,186-105,348s-303,219-216,418.5c87,199.5,487.9,240,632.4,0V0h-323.4L1608.6,6.6z;         M1648.6,6.8c0,0,208.5,186-105,348s-303,219-216,418.5c87,199.5,487.9,240,632.4,0V0h-323.4L1608.6,6.6z;         M1608.6,6.6c0,0,208.5,186-105,348s-303,219-216,418.5c87,199.5,487.9,240,632.4,0V0h-323.4L1608.6,6.6z">
 		</animate>
 </path>
-<linearGradient id="right4_1_" gradientUnits="userSpaceOnUse" x1="653.7443" y1="399.1583" x2="653.2443" y2="398.6583" gradientTransform="matrix(580.3511 0 0 -882.5938 -377555.9688 351517.5)">
+<linearGradient id="right4_1_" gradientUnits="userSpaceOnUse" x1="1306.6174" y1="1102.3164" x2="1306.1174" y2="1102.8164" gradientTransform="matrix(580.3511 0 0 882.5938 -756451.5625 -973674.8125)">
 	<stop  offset="0" style="stop-color:#0A1F53"/>
 	<stop  offset="1" style="stop-color:#00A7BE"/>
 </linearGradient>
@@ -136,7 +145,7 @@
 <animate  accumulate="none" additive="replace" attributeName="d" begin="0s" calcMode="linear" dur="9s" fill="remove" repeatCount="indefinite" restart="always" values="M1703.1,0c0,0,219,288.6-94.5,387.6s-369,306-81,450S1920,733.9,1920,733.9V0H1703.1z;         M1703.1,0c0,0,219,288.6-94.5,387.6s-369,406-81,450S1920,733.9,1920,733.9V0H1703.1z;         M1703.1,0c0,0,219,288.6-94.5,387.6s-369,306-81,450S1920,733.9,1920,733.9V0H1703.1z">
 		</animate>
 </path>
-<linearGradient id="right5_1_" gradientUnits="userSpaceOnUse" x1="653.4023" y1="398.8177" x2="652.9023" y2="398.3177" gradientTransform="matrix(446.9132 0 0 -510 -290154.1562 202752.0938)">
+<linearGradient id="right5_1_" gradientUnits="userSpaceOnUse" x1="1305.939" y1="1103.0039" x2="1305.439" y2="1103.5039" gradientTransform="matrix(446.9132 0 0 510 -581781.375 -563176.875)">
 	<stop  offset="0" style="stop-color:#0A1F53"/>
 	<stop  offset="1" style="stop-color:#00A7BE"/>
 </linearGradient>
@@ -144,15 +153,15 @@
 <animate  accumulate="none" additive="replace" attributeName="d" begin="0s" calcMode="linear" dur="14s" fill="remove" repeatCount="indefinite" restart="always" values="M1920,272.1c0,0-98.5,188.3-306.9,205.9s-160.5,304.1-10.5,304.1s317.4-72,317.4-72V272.1z;         M1920,272.1c0,1-98.5,188.3-306.9,205.9s-160.5,304.1-10.5,304.1s317.4-72,317.4-72V272.1z;         M1920,272.1c0,0-98.5,188.3-306.9,205.9s-160.5,304.1-10.5,304.1s317.4-72,317.4-72V272.1z">
 		</animate>
 </path>
-<linearGradient id="right6_1_" gradientUnits="userSpaceOnUse" x1="653.0151" y1="398.485" x2="652.5151" y2="397.985" gradientTransform="matrix(349.7656 0 0 -368.7785 -226522.4844 146356.5156)">
+<linearGradient id="right6_1_" gradientUnits="userSpaceOnUse" x1="1305.1453" y1="1103.6512" x2="1304.6453" y2="1104.1512" gradientTransform="matrix(349.7656 0 0 368.7785 -454615.1875 -407599.0312)">
 	<stop  offset="0" style="stop-color:#0A1F53"/>
 	<stop  offset="1" style="stop-color:#00A7BE"/>
 </linearGradient>
-<path id="right6" class="st15" d="M1923.1-734.9c0,0-62.5,135-224.4,147c-161.9,12-156,195-45,213s184.9,7.5,269.4-24V-734.9z">
+<path id="right6" class="st15" d="M1923.1-734.9c0,0-62.5,135-224.4,147s-156,195-45,213s184.9,7.5,269.4-24V-734.9z">
 <animate  accumulate="none" additive="replace" attributeName="d" begin="0s" calcMode="linear" dur="6s" fill="remove" repeatCount="indefinite" restart="always" values="M1920,365.1c0,0-62.5,135-224.4,147s-156,195-45,213c111,18,184.9,7.5,269.4-24V365.1z;         M1940,345.1c0,0-82.5,135-244.4,147s-176,195-45,213c111,18,184.9,7.5,269.4-24V365.1z;         M1920,365.1c0,0-62.5,135-224.4,147s-156,195-45,213c111,18,184.9,7.5,269.4-24V365.1z">
 		</animate>
 </path>
-<linearGradient id="right7_1_" gradientUnits="userSpaceOnUse" x1="652.6287" y1="398.2322" x2="652.1287" y2="397.7322" gradientTransform="matrix(288.8837 0 0 -303.041 -186644.7969 120109.4922)">
+<linearGradient id="right7_1_" gradientUnits="userSpaceOnUse" x1="1304.3647" y1="1104.1504" x2="1303.8647" y2="1104.6504" gradientTransform="matrix(288.8837 0 0 303.041 -374920.75 -335174.0312)">
 	<stop  offset="0" style="stop-color:#0A1F53"/>
 	<stop  offset="1" style="stop-color:#00A7BE"/>
 </linearGradient>
@@ -161,21 +170,27 @@
 		</animate>
 </path>
 <g>
-	<defs>
-		<rect id="SVGID_1_" x="3.1" y="1096" width="1915.9" height="1080"/>
-	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-	</clipPath>
-	<g style="clip-path:url(#SVGID_2_);">
-		
-			<image style="overflow:visible;" width="1741" height="1088" xlink:href="thebay.jpg"  transform="matrix(1.1066 0 0 1.1066 -7.6213 1096)">
-		</image>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="3.1" y="1096" width="1915.9" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st17">
+			
+				<image style="overflow:visible;enable-background:new    ;" width="1741" height="1088" xlink:href="thebay.jpg"  transform="matrix(1.1066 0 0 1.1066 -7.6213 1096)">
+			</image>
+		</g>
 	</g>
 </g>
-<path class="st17" d="M502,0c0,0-470,32-470,360s24,450,42,520s142,184,250,200H3.1V0H502z"/>
-<path class="st17" d="M542,0c0,0-514,56-422,378s376,686,868,702H3.1V0H542z"/>
-<path class="st17" d="M1158,0c0,0,610,134,660,382s-90,698-90,698h192V0H1158z"/>
-<path class="st17" d="M1296,26c0,0,316.4,170,326.2,394S1508,1004,1216,1080h704V0l-628,0L1296,26z"/>
-<rect x="3.1" y="0" class="st17" width="1916.9" height="1080"/>
+<path class="st18" d="M542,0c0,0-514,56-422,378s376,686,868,702H3.1V0H542z"/>
+<path class="st19" d="M502,0c0,0-470,32-470,360s24,450,42,520s142,184,250,200H3.1V0H502z"/>
+<path class="st20" d="M1296,26c0,0,316.4,170,326.2,394S1508,1004,1216,1080h704V0h-628L1296,26z"/>
+<path class="st21" d="M1158,0c0,0,610,134,660,382s-90,698-90,698h192V0H1158z"/>
+<rect x="3.1" class="st22" width="1916.9" height="1080"/>
+<path class="st23" d="M392,1096c0,0-656,903,206,1083l-594.9-3V1096H392z"/>
+<path class="st24" d="M296,1096c0,0-214,345-244,701s122,379,122,379H3.1V1096l282.9-1L296,1096z"/>
+<path class="st25" d="M790,2179c0,0,1146-94,854-910l-54-173h329l0,1080L790,2179z"/>
+<path class="st26" d="M1320,1096c0,0,496,305,504,657s-44,426-44,426l139-3l0-1080H1320z"/>
 </svg>
