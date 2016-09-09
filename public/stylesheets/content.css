@@ -2,24 +2,6 @@
   transition: none !important;
 }
 
-/*.section-2.active-section{
-
-}
-.section-2.entering-section-down{
- 
-}
-
-.section-2.entering-section-up{
-  
-}
-.section-2.leaving-section-down{
-  
-}
-.section-2.leaving-section-up{
-  
-}
-
-
 */
 .section-2-content,
 .section-3-content {
@@ -162,16 +144,16 @@
   transition: top 1300ms, opacity 3s;
 }
 
-
+/* entering section down & leaving section up */
 
 .section-3.entering-section-down .section-3-header,
 .section-3.leaving-section-up .section-3-header {
-  top: 50%;
+  top: 80%;
   opacity: 0;
 }
 .section-3.entering-section-down .section-3-info,
 .section-3.leaving-section-up .section-3-info {
-  top: 60%;
+  top: 80%;
   opacity: 0;  
 }
 .section-3.entering-section-down .get-involved-button,
@@ -181,6 +163,7 @@
 }
 
 
+/* leaving section down & entering section up */
 
 
 .section-3.leaving-section-down .section-3-header,
@@ -201,6 +184,7 @@
   opacity: 0;
 }
 
+/* active-section state */
 
 
 .section-3.active-section .section-3-header {
@@ -245,6 +229,8 @@
   border: solid 4px #00a7be;
 }
 
+/*contact modal*/
+
 .modal {
   display: flex;
   position: fixed;
@@ -262,16 +248,55 @@
 
 .modal-content {
   background-color: white;
-  padding: 20px; 
+  padding: 40px; 
   position: relative;
   bottom: 100vh;
   transition: bottom 500ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 
+.modal-content h2 {
+  margin-bottom: 19px;
+  font-size: 3em;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.66);
+}
+
+.modal-content h3, .modal-content a {
+  font-size: 1.3em;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.76);
+  padding-bottom: 5px;
+}
+
+.modal-content .save-bay {
+  font-weight: 600;
+}
+
+.modal-content a {
+  text-decoration: none;
+  margin-bottom: 40px;
+  font-size: 1.3em;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.76);
+}
+
+.modal-content button {
+  padding: 8px 12px;
+  font-size: 0.6em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  color: black;
+  background: rgba(0,0,0,0);
+  border: solid 2px #00a7be;
+  /*margin-top: 20px;*/
+  margin-left: 319px;
+
+}
+
 .modal-open {
   /*opacity: 1;*/
   pointer-events: auto;
-  background-color: rgba(0,0,0,0.75);
+  background-color: rgba(0,0,0,0.89);
 }
 
 .modal-open .modal-content {
