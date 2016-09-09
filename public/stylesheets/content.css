@@ -151,40 +151,72 @@
   left: 29%;
   opacity: 0;
 }
+
 .section-3-header {
-  top: 50%;
   transition: top 1000ms, opacity 3s;
 }
 .section-3-info{
-  top: 60%;
   transition: top 1200ms, opacity 3s;
 }
 .get-involved-button{
-  top: 80%;
   transition: top 1300ms, opacity 3s;
 }
 
-.section-3.entering-section-down .section-3-header{
+
+
+.section-3.entering-section-down .section-3-header,
+.section-3.leaving-section-up .section-3-header {
+  top: 50%;
+  opacity: 0;
+}
+.section-3.entering-section-down .section-3-info,
+.section-3.leaving-section-up .section-3-info {
+  top: 60%;
+  opacity: 0;  
+}
+.section-3.entering-section-down .get-involved-button,
+.section-3.leaving-section-up .get-involved-button {
+  top: 80%;
+  opacity: 0;
+}
+
+
+
+
+.section-3.leaving-section-down .section-3-header,
+.section-3.entering-section-up .section-3-header {
+  top: -50%;
+  opacity: 0;
+}
+
+.section-3.leaving-section-down .section-3-info,
+.section-3.entering-section-up .section-3-info{
+  top: -60%;
+  opacity: 0;
+}
+
+.section-3.leaving-section-down .get-involved-button,
+.section-3.entering-section-up .get-involved-button{
+  top: -80%;
+  opacity: 0;
+}
+
+
+
+.section-3.active-section .section-3-header {
   top: 10%;
   opacity: 1;
 }
-.section-3.entering-section-down .section-3-info{
+
+.section-3.active-section .section-3-info {
   top: 28%;
   opacity: 1;  
 }
-.section-3.entering-section-down .get-involved-button {
+.section-3.active-section .get-involved-button {
   top: 60%;
   opacity: 1;
 }
 
-
-
-.section-3.leaving-section .section-2-header,
-.section-3.leaving-section .section-2-info,
-.section-3.leaving-section .get-involved-button {
-  top: -50%;
-  opacity: 1;
-}
 
 .section-2-header,
 .section-3-header {
