@@ -4,8 +4,8 @@ var ScrollAnimator = {
     this.scrollAnimationDuration = 500;
     this.currentSection = 1;
     this.numberOfSections = $('main > section').length;
-    this.lastTimeWeMovedSections = 0;
-    this.lastDirectionWeMoved = 0; // 0 == up and 1 == down
+    this.movingSections = false;
+    this.lastMoveWasDown = false;
     $(window).on('mousewheel', (event) => {
       (event.originalEvent.wheelDelta / 120 > 0) ? this.goBackward() : this.goForward();
     })
@@ -17,33 +17,56 @@ var ScrollAnimator = {
   },
 
   moveToSection: function(sectionIndex){
-    var directionWedMove = this.currentSection < sectionIndex ? 1 : 0;
-    if (this.lastDirectionWeMoved === directionWedMove && Date.now() - this.lastTimeWeMovedSections < 700){
-      return;
-    }
-    if (sectionIndex < 0) sectionIndex = 0;
+    if (sectionIndex < 1) sectionIndex = 1;
     if (sectionIndex > this.numberOfSections) sectionIndex = this.numberOfSections;
     if (this.currentSection === sectionIndex) return;
-    this.lastDirectionWeMoved = directionWedMove
+    var movingDown = this.currentSection < sectionIndex;
+    if (this.lastMoveWasDown === movingDown && this.movingSections) return;
+
+    $('main')
+      .stop(true, false)
+      .trigger('animation-complete')
+
+    this.movingSections = true;
+
+
+    var current = $('main > section:nth-child('+this.currentSection+')')
+    var destination = $('main > section:nth-child('+sectionIndex+')')
+
+    this.lastMoveWasDown = movingDown
     this.lastTimeWeMovedSections = Date.now()
     this.currentSection = sectionIndex
-    $('main > section:nth-child('+sectionIndex+')')
-      .prev()
-        .removeClass('entering-section')
-        .addClass('leaving-section')
-      .end()
-      .removeClass('leaving-section')
-      .addClass('entering-section')
-      .siblings().removeClass('entering-section')
-    $('main').stop().animate({
-      scrollTop: this.scrollTopForSection(sectionIndex)
-    }, 1000)
-    
+
     if (this.currentSection === 1){
       $('nav').removeClass('visible');
     }else{
       $('nav').addClass('visible');
     }
+
+    var styles = {
+      scrollTop: this.scrollTopForSection(sectionIndex)
+    }
+
+    current
+      .removeClass('active-section')
+      .addClass(movingDown ? 'leaving-section-down' : 'leaving-section-up')
+    destination
+      .addClass('active-section')
+      .addClass(movingDown ? 'entering-section-down' : 'entering-section-up')
+
+    var onAnimationComplete = () => {
+      current.removeClass(movingDown ? 'leaving-section-down' : 'leaving-section-up')
+      destination.removeClass(movingDown ? 'entering-section-down' : 'entering-section-up')
+      this.movingSections = false;
+    }
+
+    $('main')
+      .animate(styles, 1000, this.triggerAnimationComplete)
+      .one('animation-complete', onAnimationComplete)
+  },
+
+  triggerAnimationComplete: function(){ 
+    $('main').trigger('animation-complete'); 
   },
 
   scrollTopForSection: function(n){
