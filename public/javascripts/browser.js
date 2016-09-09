@@ -85,4 +85,13 @@ var ScrollAnimator = {
 
 $(function(){
   ScrollAnimator.initialize()
+
+  $('.open-contact-modal').on('click', function(event){
+    event.preventDefault();
+    $('.contact-modal').addClass('modal-open')
+  })
+  $('.close-contact-modal').on('click', function(event){
+    event.preventDefault();
+    $('.contact-modal').removeClass('modal-open')
+  })
 })

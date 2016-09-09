@@ -28,7 +28,8 @@ main > section{
 }
 
 .section-2{
-  background: url('/images/bay-bridge.jpg') center center;
+  background: url('/images/bay-bridge.jpg') top center;
+  background-size: cover;
 }
 
 .section-2.active-section{
@@ -48,7 +49,8 @@ main > section{
 }
 
 .section-3{
-  background: url('/images/airplane-view.jpg') center center;
+  background: url('/images/airplane-view.jpg') top center;
+  background-size: cover;
 }
 .section-4{
   background: yellow;
