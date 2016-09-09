@@ -1,8 +1,33 @@
-  .section-2-content,
+.no-transition, .no-transition * {
+  transition: none !important;
+}
+
+/*.section-2.active-section{
+
+}
+.section-2.entering-section-down{
+ 
+}
+
+.section-2.entering-section-up{
+  
+}
+.section-2.leaving-section-down{
+  
+}
+.section-2.leaving-section-up{
+  
+}
+
+
+*/
+.section-2-content,
 .section-3-content {
   position: relative;
   height: 100%;
 }
+
+/* Section 2 */
 
 .section-2-header,
 .section-2-date, 
@@ -14,6 +39,110 @@
   opacity: 0;
 }
 
+.section-2-date {
+  font-weight: 200;
+  margin-bottom: 20px;
+
+}
+
+.section-2-info {
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.section-2 .section-2-header {
+  transition: top 1000ms, opacity 3s;
+}
+.section-2 .section-2-date{
+  transition: top 1100ms, opacity 3s;
+}
+.section-2 .section-2-info{
+  transition: top 1200ms, opacity 3s;
+}
+.section-2 .learn-more-button{
+  transition: top 1300ms, opacity 3s;
+}
+
+
+
+/* entering section down & leaving section up */
+
+.section-2.entering-section-down .section-2-header,
+.section-2.leaving-section-up .section-2-header {
+  top: 50%;
+  opacity: 0;
+}
+.section-2.entering-section-down .section-2-date,
+.section-2.leaving-section-up .section-2-date{
+  top: 60%;
+  opacity: 0;
+}
+.section-2.entering-section-down .section-2-info,
+.section-2.leaving-section-up .section-2-info{
+  top: 60%;
+  opacity: 0;
+}
+.section-2.entering-section-down .learn-more-button,
+.section-2.leaving-section-up .learn-more-button{
+  top: 80%;
+  opacity: 0;
+}
+
+
+/* leaving section down & entering section up */
+
+.section-2.leaving-section-down .section-2-header,
+.section-2.entering-section-up .section-2-header {
+  top: -50%;
+  opacity: 0;
+}
+.section-2.leaving-section-down .section-2-date,
+.section-2.entering-section-up .section-2-date{
+  top: -60%;
+  opacity: 0;
+}
+.section-2.leaving-section-down .section-2-info,
+.section-2.entering-section-up .section-2-info{
+  top: -60%;
+  opacity: 0;
+}
+.section-2.leaving-section-down .learn-more-button,
+.section-2.entering-section-up .learn-more-button{
+  top: -80%;
+  opacity: 0;
+}
+
+
+
+/* active-section state */
+
+.section-2.active-section .section-2-header{
+  top: 10%;
+  opacity: 1;
+}
+.section-2.active-section .section-2-date{
+  top: 25%;
+  opacity: 1;
+}
+.section-2.active-section .section-2-info{
+  top: 29%;
+  opacity: 1;  
+}
+.section-2.active-section .learn-more-button{
+  top: 36%;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+/* section 3 */
+
+
 .section-3-header,
 .section-3-info,
 .get-involved-button {
@@ -22,24 +151,6 @@
   left: 29%;
   opacity: 0;
 }
-
-.section-2-header {
-  top: 50%;
-  transition: top 1000ms, opacity 5s;
-}
-.section-2-date{
-  top: 60%;
-  transition: top 1100ms, opacity 5s;
-}
-.section-2-info{
-  top: 60%;
-  transition: top 1200ms, opacity 5s;
-}
-.learn-more-button{
-  top: 80%;
-  transition: top 1300ms, opacity 5s;
-}
-
 .section-3-header {
   top: 50%;
   transition: top 1000ms, opacity 3s;
@@ -53,43 +164,20 @@
   transition: top 1300ms, opacity 3s;
 }
 
-.section-2.entering-section .section-2-header{
+.section-3.entering-section-down .section-3-header{
   top: 10%;
   opacity: 1;
 }
-.section-2.entering-section .section-2-date{
-  top: 25%;
-  opacity: 1;
-}
-.section-2.entering-section .section-2-info{
-  top: 29%;
-  opacity: 1;  
-}
-.section-2.entering-section .learn-more-button {
-  top: 36%;
-  opacity: 1;
-}
-
-.section-3.entering-section .section-3-header{
-  top: 10%;
-  opacity: 1;
-}
-.section-3.entering-section .section-3-info{
+.section-3.entering-section-down .section-3-info{
   top: 28%;
   opacity: 1;  
 }
-.section-3.entering-section .get-involved-button {
+.section-3.entering-section-down .get-involved-button {
   top: 60%;
   opacity: 1;
 }
 
-.section-2.leaving-section .section-2-header,
-.section-2.leaving-section .section-2-date, 
-.section-2.leaving-section .section-2-info,
-.section-2.leaving-section .learn-more-button {
-  top: -50%;
-  opacity: 1;
-}
+
 
 .section-3.leaving-section .section-2-header,
 .section-3.leaving-section .section-2-info,
@@ -105,16 +193,6 @@
   margin-bottom: 20px;
 }
 
-.section-2-date {
-  font-weight: 200;
-  margin-bottom: 20px;
-
-}
-
-.section-2-info {
-  font-weight: 200;
-  margin-bottom: 20px;
-}
 
 .section-3-info {
   font-weight: 200;

@@ -32,21 +32,6 @@ main > section{
   background-size: cover;
 }
 
-.section-2.active-section{
-  /*background: yellow; */
-}
-.section-2.entering-section-down{
-  /*background: green;*/
-}
-.section-2.entering-section-up{
-  /*background: purple;*/
-}
-.section-2.leaving-section-down{
-  /*background: red;*/
-}
-.section-2.leaving-section-up{
-  /*background: orange;*/
-}
 
 .section-3{
   background: url('/images/airplane-view.jpg') top center;
