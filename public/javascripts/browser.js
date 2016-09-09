@@ -6,7 +6,7 @@ var ScrollAnimator = {
     this.numberOfSections = $('main > section').length;
     this.lastTimeWeMovedSections = 0;
     this.lastDirectionWeMoved = 0; // 0 == up and 1 == down
-    $(window).on('mousewheel', (event) => {
+    $('main').on('mousewheel', (event) => {
       (event.originalEvent.wheelDelta / 120 > 0) ? this.goBackward() : this.goForward();
     })
 
@@ -62,4 +62,13 @@ var ScrollAnimator = {
 
 $(function(){
   ScrollAnimator.initialize()
+
+  $('.open-contact-modal').on('click', function(event){
+    event.preventDefault();
+    $('.contact-modal').addClass('modal-open')
+  })
+  $('.close-contact-modal').on('click', function(event){
+    event.preventDefault();
+    $('.contact-modal').removeClass('modal-open')
+  })
 })
