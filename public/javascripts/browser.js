@@ -47,11 +47,9 @@ var ScrollAnimator = {
       scrollTop: this.scrollTopForSection(sectionIndex)
     }
 
-    current
-      .removeClass('active-section')
-      .addClass(movingDown ? 'leaving-section-down' : 'leaving-section-up')
+    current.addClass(movingDown ? 'leaving-section-down' : 'leaving-section-up')
     destination
-      .addClass('active-section')
+      .addClass('no-transition')
       .addClass(movingDown ? 'entering-section-down' : 'entering-section-up')
 
     var onAnimationComplete = () => {
@@ -60,9 +58,13 @@ var ScrollAnimator = {
       this.movingSections = false;
     }
 
-    $('main')
-      .animate(styles, 1000, this.triggerAnimationComplete)
-      .one('animation-complete', onAnimationComplete)
+    setTimeout(() => {
+      current.removeClass('active-section')
+      destination.removeClass('no-transition').addClass('active-section')
+      $('main')
+        .animate(styles, 1000, this.triggerAnimationComplete)
+        .one('animation-complete', onAnimationComplete)
+    }, 50)
   },
 
   triggerAnimationComplete: function(){ 
