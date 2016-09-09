@@ -33,19 +33,19 @@ main > section{
 }
 
 .section-2.active-section{
-  background: yellow; 
+  /*background: yellow; */
 }
 .section-2.entering-section-down{
-  background: green;
+  /*background: green;*/
 }
 .section-2.entering-section-up{
-  background: purple;
+  /*background: purple;*/
 }
 .section-2.leaving-section-down{
-  background: red;
+  /*background: red;*/
 }
 .section-2.leaving-section-up{
-  background: orange;
+  /*background: orange;*/
 }
 
 .section-3{

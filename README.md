@@ -16,16 +16,16 @@ Learn Animation
 
 ### Specifications
 
-- [ ] Single landing page, very visually appealing
-- [ ] replicate this: https://dribbble.com/shots/2719343-magic-co-landing-page-concept
-- [ ] page textures animate
-- [ ] navbar is transparent and appears on second pane
-- [ ] at least 3 panes that scrolling snaps to.
+- [X] Single landing page, very visually appealing 
+- [X] replicate this: https://dribbble.com/shots/2719343-magic-co-landing-page-concept
+- [X] page textures animate
+- [X] navbar is transparent and appears on second pane
+- [X] at least 3 panes that scrolling snaps to.
 
 
 ### Required
 
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+- [X] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ---
 
