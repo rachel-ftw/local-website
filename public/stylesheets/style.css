@@ -26,8 +26,7 @@ main > section{
   background: url('/images/noodle_1.svg');
   color:white;
 }
-/*These will need two background images, one with the svg... or does that overlay???
-*/
+
 .section-2{
   background: url('/images/bay-bridge.jpg') top center;
   background-size: cover;
@@ -56,6 +55,9 @@ nav {
   opacity: 0;
   transition: opacity 500ms;
   pointer-events: none;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 nav.visible{
